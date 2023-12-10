@@ -33,6 +33,32 @@
     lodash "^4.17.15"
     webpack-merge "^4.2.2"
 
+"@fortawesome/fontawesome-common-types@6.5.1":
+  version "6.5.1"
+  resolved "https://registry.npmjs.org/@fortawesome/fontawesome-common-types/-/fontawesome-common-types-6.5.1.tgz"
+  integrity sha512-GkWzv+L6d2bI5f/Vk6ikJ9xtl7dfXtoRu3YGE6nq0p/FFqA1ebMOAWg3XgRyb0I6LYyYkiAo+3/KrwuBp8xG7A==
+
+"@fortawesome/fontawesome-svg-core@^6.5.1", "@fortawesome/fontawesome-svg-core@~1 || ~6":
+  version "6.5.1"
+  resolved "https://registry.npmjs.org/@fortawesome/fontawesome-svg-core/-/fontawesome-svg-core-6.5.1.tgz"
+  integrity sha512-MfRCYlQPXoLlpem+egxjfkEuP9UQswTrlCOsknus/NcMoblTH2g0jPrapbcIb04KGA7E2GZxbAccGZfWoYgsrQ==
+  dependencies:
+    "@fortawesome/fontawesome-common-types" "6.5.1"
+
+"@fortawesome/free-brands-svg-icons@^6.5.1":
+  version "6.5.1"
+  resolved "https://registry.npmjs.org/@fortawesome/free-brands-svg-icons/-/free-brands-svg-icons-6.5.1.tgz"
+  integrity sha512-093l7DAkx0aEtBq66Sf19MgoZewv1zeY9/4C7vSKPO4qMwEsW/2VYTUTpBtLwfb9T2R73tXaRDPmE4UqLCYHfg==
+  dependencies:
+    "@fortawesome/fontawesome-common-types" "6.5.1"
+
+"@fortawesome/react-fontawesome@^0.2.0":
+  version "0.2.0"
+  resolved "https://registry.npmjs.org/@fortawesome/react-fontawesome/-/react-fontawesome-0.2.0.tgz"
+  integrity sha512-uHg75Rb/XORTtVt7OS9WoK8uM276Ufi7gCzshVWkUJbHhh3svsUUeqXerrM96Wm7fRiDzfKRwSoahhMIkGAYHw==
+  dependencies:
+    prop-types "^15.8.1"
+
 "@heroicons/react@^1.0.1":
   version "1.0.6"
   resolved "https://registry.npmjs.org/@heroicons/react/-/react-1.0.6.tgz"
@@ -1725,9 +1751,9 @@ caniuse-api@^1.5.2:
     lodash.uniq "^4.5.0"
 
 caniuse-db@^1.0.30000529, caniuse-db@^1.0.30000634, caniuse-db@^1.0.30000639:
-  version "1.0.30001566"
-  resolved "https://registry.npmjs.org/caniuse-db/-/caniuse-db-1.0.30001566.tgz"
-  integrity sha512-+Ef8QGfVyMIXCk1EGfkF1YvZBdVgXv7tcl0gSTUqiQ6RFO/5IgFBIGQM9w4xVAe1pr1TXBdooRwlUo++AREwxg==
+  version "1.0.30001568"
+  resolved "https://registry.npmjs.org/caniuse-db/-/caniuse-db-1.0.30001568.tgz"
+  integrity sha512-v0FHgHaaniWYEQ6t6wAIMaNyB0LdkUptxv1OGqxV/XA5sk6TIz94dk3iTN9z0Lyk80tb2ylOW3OpxVdwPC3gSA==
 
 caniuse-lite@^1.0.30000748, caniuse-lite@^1.0.30000792, caniuse-lite@^1.0.30001109, caniuse-lite@^1.0.30001565:
   version "1.0.30001566"
@@ -7127,7 +7153,7 @@ promise@8.0.1:
   dependencies:
     asap "~2.0.3"
 
-prop-types@^15.5.10:
+prop-types@^15.5.10, prop-types@^15.8.1:
   version "15.8.1"
   resolved "https://registry.npmjs.org/prop-types/-/prop-types-15.8.1.tgz"
   integrity sha512-oj87CgZICdulUohogVAR7AjlC0327U4el4L6eAvOqCeudMDVU0NThNaV+b9Df4dXgSP1gXMTnPdhfe/2qDH5cg==
@@ -7306,8 +7332,8 @@ rc@^1.0.1, rc@^1.1.6:
 
 react-dev-utils@^5.0.2:
   version "5.0.3"
-  resolved "https://registry.npmjs.org/react-dev-utils/-/react-dev-utils-5.0.3.tgz"
-  integrity sha512-Mvs6ofsc2xTjeZIrMaIfbXfsPVrbdVy/cVqq6SAacnqfMlcBpDuivhWZ1ODGeJ8HgmyWTLH971PYjj/EPCDVAw==
+  resolved "https://registry.npmjs.org/react-dev-utils/-/react-dev-utils-5.0.2.tgz"
+  integrity sha512-d2FbKvYe4XAQx5gjHBoWG+ADqC3fGZzjb7i9vxd/Y5xfLkBGtQyX7aOb8lBRQPYUhjngiD3d49LevjY1stUR0Q==
   dependencies:
     address "1.0.3"
     babel-code-frame "6.26.0"
@@ -7393,7 +7419,7 @@ react-scripts@*, react-scripts@^1.1.5:
   optionalDependencies:
     fsevents "^1.1.3"
 
-react@^17.0.2, "react@>= 16", react@17.0.2:
+react@^17.0.2, "react@>= 16", react@>=16.3, react@17.0.2:
   version "17.0.2"
   resolved "https://registry.npmjs.org/react/-/react-17.0.2.tgz"
   integrity sha512-gnhPt75i/dq/z3/6q/0asP78D0u592D5L1pd7M8P+dck6Fu/jJeL6iVVK23fptSUZj8Vjf++7wXA8UNclGQcbA==
