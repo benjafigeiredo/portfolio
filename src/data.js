@@ -16,8 +16,8 @@ export const projects = [
   },
   {
     title: "UNICEN", 
-    subtitle: "Assistant Professor (March 2021 - March 2022)",   
-    description: "I worked as an assistant professor in the subject of Software Methodologies, in which I taught the fundamentals of Scrum and Agile Methodologies, as well as the dynamics of teamwork in software.",
+    subtitle: "Teaching assistant (March 2021 - March 2022)",   
+    description: "I worked as a teaching assistant in the subject of Software Methodologies, in which I taught the fundamentals of Scrum and Agile Methodologies, as well as the dynamics of teamwork in software.",
     image: "./project-3.jpeg",
     link: "https://exa.unicen.edu.ar/",
   }
